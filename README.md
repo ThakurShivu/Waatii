@@ -1,1 +1,2 @@
-add a read me 
+firstly make a index page
+
