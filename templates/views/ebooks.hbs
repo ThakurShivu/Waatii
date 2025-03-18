@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{watii.io}}</title>
+    <link rel="stylesheet" href="/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/responsive.css">
+    <link rel="stylesheet" href="/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="/css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="/css/owl.carousel.css">
+    <link rel="stylesheet" href="/css/animate.min.css">
+</head>
+<body>
+{{!-- navbar start --}}
+{{>navbar}}
+{{!-- navbar end --}}
+
+{{!-- hero section start --}}
+<div class="container-fluid">
+      <div class="row">
+        <div class="col-md-10 col-12 mx-auto">
+            <div class="row">
+        <div class="col-md-6 col-12 order-md-0 order-1 wow fadeInLeft animate__animated animate__fadeInLeft intgr hero-text" style="visibility: visible; animation-name: fadeInLeft;">  
+        <br>
+        <br>
+        <h1><br><strong>Tap into WhatsApp Awesomeness</strong></h1>
+        <p>Download Our FREE eBooks on WhatsApp API!</p>
+    </div>
+        {{!-- right side --}}
+    <div class="col-md-6 col-12 order-md-1 order-0 wow fadeInRight animate__animated animate__fadeInRight intgr home-banner-left-text" style="visibility: visible; animation-name: fadeInRight;">
+      
+        <img width="555" height="450" class="wow fadeInRight slideimg" src="/images/Ebook-home.webp" alt="Inbox" style="visibility: visible; animation-name:fadeInRight;">
+      </div>
+    </div>
+        </div>
+      </div>
+    </div>
+ {{!-- hero section end    --}}
+
+ 
+
+{{>block}}
+
+{{!-- book start --}}
+<section class="waf4 item4 paddwat30 wow fadeIn" style="visibility: visible; animation-name: fadeIn;">
+    <div class="container space ">
+        <div class="row adjustbxflex center ">
+            <div class="col-md-4 col-sm-12 text-center">
+               <div class="borderr">
+                <img class="iimg-widthh" src="/images/whatsppapi.webp" alt="break engagemnt barriers" width="200px" height="225px">
+                <h2 class="h4"><strong>WhatsApp API for Marketing and Sales Teams</strong></h2>
+                <p class="prgh text-center">Learn how WhatsApp can help your business grow! Get tips on marketing and sales.</p>
+                <a href="/whatsappapi" class="btn brdr wht">Download</a>
+               </div> 
+            </div>
+
+             <div class="col-md-4 col-sm-12 text-center">
+               <div class="borderr">
+                <img class="iimg-widthh" src="/images/Shopify-ebook.webp" alt="break engagemnt barriers" width="200px" height="225px">
+                <h2 class="h4"><strong>Integrating Shopify with WhatsApp</strong></h2>
+                <p class="prgh text-center">A concise guide on enhancing e-commerce through Shopify and WhatsApp integration for better customer engagement.</p>
+                <a href="https://www.wati.io/wp-content/uploads/2024/03/eBook-Shopify-Ebook.pdf" class="btn brdr wht">Download</a>
+               </div> 
+            </div>
+
+             <div class="col-md-4 col-sm-12 text-center">
+               <div class="borderr">
+                <img class="iimg-widthh" src="/images/whatsapp_ecommerce.webp" alt="break engagemnt barriers" width="200px" height="225px">
+                <h2 class="h4"><strong>Power of WhatsApp for E-commerce (Free Templates Inside)</strong></h2>
+                <p class="prgh text-center">Maximize E-commerce with WhatsApp! Free templates and strategies for success await you.</p>
+                <a href="" class="btn brdr wht">Download</a>
+               </div> 
+            </div>
+        </div>
+
+        <div class="row adjustbxflex center" style="padding-top:20px;">
+            <div class="col-md-4 col-sm-12 text-center">
+               <div class="borderr">
+                <img class="iimg-widthh" src="/images/Partnership-ebook.webp" alt="break engagemnt barriers" width="200px" height="225px">
+                <h2 class="h4"><strong>Guide to Affiliate Marketing</strong></h2>
+                <p class="prgh text-center">Essential insights into affiliate marketing, offering strategies for building profitable partnerships and driving sales.</p>
+                <a href="https://www.wati.io/wp-content/uploads/2024/03/eBook-Affiliate-Marketing-Ebook.pdf" class="btn brdr wht">Download</a>
+               </div> 
+            </div>
+
+             <div class="col-md-4 col-sm-12 text-center">
+               <div class="borderr">
+                <img class="iimg-widthh" src="/images/Chatbot-ebook.webp" alt="break engagemnt barriers" width="200px" height="225px">
+                <h2 class="h4"><strong>Guide to WhatsApp Chatbots</strong></h2>
+                <p class="prgh text-center">An overview of using chatbots in WhatsApp for improved customer service and efficient communication in businesses.</p>
+                <a href="https://www.wati.io/wp-content/uploads/2024/03/eBook-WhatsApp-Chatbot.pdf" class="btn brdr wht">Download</a>
+               </div> 
+            </div>
+        </div>
+    </div>
+</section>
+
+{{!-- book end --}}
+
+ {{!-- slider start --}}
+ {{> slider}}
+{{!-- slider end --}}
+
+{{>discover}}
+
+{{!-- footer end --}}
+ {{>footer}}
+{{!-- footer end --}}
+
+<script src="/jq/jquery.min.js"></script>
+<script src="/js/bootstrap.js" type="text/javascript"></script>
+<script src="/js/owl.carousel.min.js"></script>
+ <script>
+   $(document).ready(function($){
+
+    $('#slider .owl-carousel').owlCarousel({
+        loop:true,
+        margin:10,
+        nav:false,
+        autoplay:true,
+        autoplayTimeout:1000,
+        stagepadding:50,
+        dots:false,
+        responsive:{
+            0:{
+                items:1
+            },
+            600:{
+                items:3
+            },
+            1000:{
+                items:6
+            }
+        }
+    })
+
+}); 
+</script>
+
+</body>
+</html>
