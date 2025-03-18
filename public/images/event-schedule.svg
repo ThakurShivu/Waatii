@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="20.907" height="23.332" viewBox="0 0 20.907 23.332">
+  <g id="event-schedule" transform="translate(-5.65 -2.65)">
+    <path id="Path_264" data-name="Path 264" d="M25.966,33.933a6.466,6.466,0,1,1,6.466-6.466A6.466,6.466,0,0,1,25.966,33.933Zm0-11.316a4.85,4.85,0,1,0,4.85,4.85A4.85,4.85,0,0,0,25.966,22.617Z" transform="translate(-6.225 -8.301)" fill="#4fc3ff" stroke="#4fc3ff" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.7"/>
+    <path id="Path_265" data-name="Path 265" d="M32.093,32.658,30,30.565V27h1.617v2.9l1.617,1.617Z" transform="translate(-11.067 -11.067)" fill="#4fc3ff" stroke="#4fc3ff" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.7"/>
+    <path id="Path_266" data-name="Path 266" d="M25.4,6.233a1.617,1.617,0,0,0-1.617-1.617H20.549V3H18.933V4.617H12.466V3H10.85V4.617H7.617A1.617,1.617,0,0,0,6,6.233V22.4a1.617,1.617,0,0,0,1.617,1.617H10.85V22.4H7.617V6.233H10.85V7.85h1.617V6.233h6.466V7.85h1.617V6.233h3.233v4.85H25.4Z" transform="translate(0)" fill="#4fc3ff" stroke="#4fc3ff" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.7"/>
+  </g>
+</svg>

@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="33" height="33" viewBox="0 0 33 33">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_5" data-name="Rectangle 5" width="33" height="33" fill="#fff"/>
+    </clipPath>
+  </defs>
+  <g id="funnel-svgrepo-com" clip-path="url(#clip-path)">
+    <path id="Path_284" data-name="Path 284" d="M25.724,4H4l7.6,10.138a2.716,2.716,0,0,1,.543,1.629v9.957l5.431-2.715V15.767a2.716,2.716,0,0,1,.543-1.629Z" transform="translate(1.431 1.431)" fill="none" stroke="#69e48e" stroke-linejoin="round" stroke-width="3"/>
+  </g>
+</svg>

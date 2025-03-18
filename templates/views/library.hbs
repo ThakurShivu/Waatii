@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{watii.io}}</title>
+    <link rel="stylesheet" href="/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/responsive.css">
+    <link rel="stylesheet" href="/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="/css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="/css/owl.carousel.css">
+    <link rel="stylesheet" href="/css/animate.min.css">
+</head>
+<body>
+{{!-- navbar start --}}
+{{>navbar}}
+{{!-- navbar end --}}
+
+{{!-- hero section start --}}
+<div class="container-fluid">
+      <div class="row">
+        <div class="col-md-10 col-12 mx-auto">
+            <div class="row">
+        <div class="col-md-6 col-12 order-md-0 order-1 wow fadeInLeft animate__animated animate__fadeInLeft intgr hero-text" style="visibility: visible; animation-name: fadeInLeft;">  
+        <br>
+        <br>
+        <span class="default">Chatbot library</span>
+        <h1><br><strong>Build Chatbots in Seconds & Automate Workflows Like Magic!</strong></h1>
+          <p>Our pre -made library simplifies chatbot creation & lets you automate tasks with integrations. Say goodbye to coding, hello to efficiency!</p>
+    </div>
+        
+        {{!-- right side --}}
+    <div class="col-md-6 col-12 order-md-1 order-0 wow fadeInRight animate__animated animate__fadeInRight intgr home-banner-left-text" style="visibility: visible; animation-name: fadeInRight;">
+        <img width="505" height="400" class="wow fadeInRight slideimg" src="/images/Hero.png" alt="Inbox" style="visibility: visible; animation-name:fadeInRight;">
+      </div>
+    </div>
+        </div>
+      </div>
+    </div>
+ {{!-- hero section end    --}}
+
+{{!-- slider start --}}
+
+ {{> slider}}
+
+{{!-- slider end --}}
+
+<section class="paddwat30" style="padding:40px 0 40px 0; text-align:center;">
+    <div class="container">
+        <div class="row">
+            <div class="space mb-3">
+                <h2><strong>Launch your chatbot quickly with pre-designed templates</strong></h2>
+            </div>
+           <div class="col-md-3 col-sm-12">
+            <div class="card">
+  <img src="/images/Mask-Group-1.png" class="card-img-top" alt="card1">
+  <div class="card-body">
+    <h5 class="card-title">Retargeting for Ed tech</h5>
+    <p class="card-text"> Boost conversions & nurture leads after your WhatsApp campaigns!</p>
+    <a class="btn wht brdr" href="#" role="button" style="background-color: rgb(85, 245, 154)">Know More</a>
+     </div>
+</div>
+           </div>
+
+           <div class="col-md-3 col-sm-12">
+            <div class="card">
+  <img src="/images/Mask-Group-2.png" class="card-img-top" alt="card1">
+  <div class="card-body">
+    <h5 class="card-title">Welcome Bot</h5>
+    <p class="card-text">Give your prospects a warm welcome & answer their questions instantly!</p>
+    <a class="btn wht brdr" href="#" role="button" style="background-color: rgb(85, 245, 154)">Know More</a>
+  </div>
+</div>
+           </div>
+
+           <div class="col-md-3 col-sm-12">
+            <div class="card">
+  <img src="/images/Mask-Group-3.png" class="card-img-top" alt="card1">
+  <div class="card-body">
+    <h5 class="card-title">Lead Qualification</h5>
+    <p class="card-text">Find your perfect customers & recommend the right products - automatically!</p>
+    <a class="btn wht brdr" href="#" role="button" style="background-color: rgb(85, 245, 154)">Know More</a>
+      </div>
+</div>
+           </div>
+
+           <div class="col-md-3 col-sm-12">
+            <div class="card">
+  <img src="/images/Mask-Group-4.png" class="card-img-top" alt="card1">
+  <div class="card-body">
+    <h5 class="card-title">Feedback Collection</h5>
+    <p class="card-text">Get valuable insights on customer satisfaction & improve your business in minutes!</p>
+    <a class="btn wht brdr" href="#" role="button" style="background-color: rgb(85, 245, 154)">Know More</a>
+  </div>
+</div>
+           </div>
+        </div>
+    </div>
+    </section>
+
+
+
+
+
+
+{{>block}}
+
+
+
+
+
+
+{{>discover}}
+
+{{!-- footer end --}}
+ {{>footer}}
+{{!-- footer end --}}
+<script src="/jq/jquery.min.js"></script>
+<script src="/js/bootstrap.js" type="text/javascript"></script>
+<script src="/js/owl.carousel.min.js"></script>
+ <script>
+   $(document).ready(function($){
+
+    $('#slider .owl-carousel').owlCarousel({
+        loop:true,
+        margin:10,
+        nav:false,
+        autoplay:true,
+        autoplayTimeout:1000,
+        stagepadding:50,
+        dots:false,
+        responsive:{
+            0:{
+                items:1
+            },
+            600:{
+                items:3
+            },
+            1000:{
+                items:6
+            }
+        }
+    })
+
+}); 
+
+</script>
+
+</body>
+</html>
